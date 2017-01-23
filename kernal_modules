@@ -1,0 +1,8 @@
+#include <linux/init.h> 
+#include <linux/kernel.h> 
+#include <linux/module.h>
+
+
+int simple_init(void) 
+{
+printk(KERN_INFO "Load

@@ -1,0 +1,3 @@
+
+ProcessQueue2: ProcessQueue.C ProcessQueue_app2.C
+	g++ -o ProcessQueue ProcessQueue.C ProcessQueue_app2.C -I.
